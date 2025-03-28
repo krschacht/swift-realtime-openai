@@ -13,9 +13,6 @@ public struct Session: Codable, Equatable, Sendable {
 		case coral
 		case sage
 		case verse
-		case fable
-		case onyx
-		case nova
 	}
 
 	public enum AudioFormat: String, Codable, Sendable {
